@@ -1,0 +1,59 @@
+/* INHERITENCE */
+
+/* inherit, intial, unset */
+
+/* inherit == same properties as its parent */
+/* ul {
+    color: green;
+} */
+
+/* .class-1 a {
+    color: inherit;
+} */
+
+/* initial == default value of that properties */
+/* .class-2 a {
+    color: initial;
+} */
+
+/* unset ==  can be intial or inherit*/
+/* .class-3 a {
+    color: unset;
+} */
+
+/* !important keyword have large specicity */
+
+/* #summer-drinks {
+    color: blue;
+}
+ul {
+    color: rgb(255, 0, 85) !important;
+} */
+
+/* overflow */
+
+/* .box {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto;
+} */
+
+/* image styling */
+
+/* .box {
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+
+img {
+    height: 100%;
+    width: 100%; */
+    /* object-fit: contain; == maintain aspect ratio*/ 
+    /* object-fit: cover; == maintain aspect ratio with full image */
+    /* object-fit: fill; == spread in box but aspect ratio gets disabled */
+/* } */

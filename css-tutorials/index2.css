@@ -1,0 +1,84 @@
+/* UNITS IN CSS */
+
+/* RELATIVE == %, em, rem, vh, vw, vmin, vmax */
+/* ABSOLUTE == cm, mm, px, pt, pc */
+
+/* BOX MODEL */
+
+/* div {
+    padding: 18px;
+    border: 10px solid black;
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+} */
+
+/* .box1, .box2 {
+    height: 100px;
+    width: 100px;
+}
+
+.box2 {
+    padding: 30px;
+    background-color: blueviolet;
+}
+
+.box1 {
+    background-color: aquamarine;
+    margin: 30px;
+}
+
+.wrapper {
+    background-color: brown;
+} */
+
+/* LIST STYLING */
+
+/* list-style-stype */
+/* list-style-position */
+/* list-style-image */
+
+/* nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+
+nav {
+    background-color: black; */
+    /* text-align: center; */
+    /* overflow: hidden;
+} */
+
+/* nav a:hover {
+    color: rgb(255, 0, 0);
+}
+
+nav a:visited {
+    color: royalblue;
+} */
+
+/* -- TABLE STYLING -- */
+
+/* border = seperate border */ 
+/* border-collapse = collapse border */
+/* padding */
+/* border-spacing */
+
+table, 
+tr, 
+th, 
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+}
+th {
+    background-color: coral;
+}
+td {
+    background-color: cornflowerblue;
+}

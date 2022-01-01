@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivness</title>
+    <style>
+        html {
+            font-size: 1em;
+        }
+
+        /* @media screen and (max-width: 600px) {
+            body {
+                color: red;
+            }
+        } */
+
+        /* @media (orientation: landscape) {
+            body {
+                color: rebeccapurple;
+            }
+        } */
+
+        /* and logigical operator */
+
+        /* @media screen and (max-width: 600px) and (orientation: Landscape) {
+            body {
+                background-color: brown;
+            }
+        } */
+
+        /* or logical operator */
+
+        /* @media screen and (max-width: 600px),
+        screen and (orientation: landscape) {
+            body{
+                color: blue;
+            }
+        } */
+
+        /* not logical operator */
+
+        /* @media not all and (orientation: landscape) {
+            body {
+                color: blue;
+            }
+        } */
+
+        .container {
+            box-sizing: border-box;
+            margin: 20px;
+            padding: 20px;
+            border: 5px solid black;
+        }
+
+        aside {
+            float: left;
+            padding: 0px;
+            margin: 10px;
+            height: 600px;
+        }
+
+        .wrapper {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <!-- <h1>Resize the browser window to see the effect!</h1>
+    <p>The media query will only apply if the media type is screen and the viewport is 480px wide or wider.</p> -->
+
+    <div class="container">
+        <aside>
+            <h1>Team Apna college</h1>
+            <h2>Kamal</h2>
+            <h2>Neha</h2>
+            <h2>Prince</h2>
+        </aside>
+
+        <div class="wrapper">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis soluta ex excepturi modi quod? Nobis, obcaecati pariatur, aspernatur fugit ipsum necessitatibus deleniti delectus debitis molestiae temporibus maiores cumque impedit facilis doloribus eos distinctio placeat? Aut obcaecati cumque tempore accusantium at fugit odit voluptate magni, harum nesciunt recusandae facilis quo minus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde dolor vel quia, sequi cum corporis quae recusandae debitis ipsa, error perspiciatis? Alias, incidunt dignissimos. Sapiente eligendi aspernatur ea temporibus reiciendis iure, nobis neque sunt, dolor nemo aliquid quos ipsam vel eos quidem animi architecto mollitia maxime quo repudiandae explicabo enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, possimus distinctio. Neque qui, ratione aut est, hic repudiandae expedita consequatur nulla quia illo amet soluta a, commodi earum nesciunt ducimus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam commodi quisquam corporis laboriosam est maiores sed numquam voluptas, exercitationem officia voluptatum aliquid saepe porro illo, praesentium, sit eos rerum <error class="lore"></error>
+        </div>
+    </div>
+</body>
+</html>

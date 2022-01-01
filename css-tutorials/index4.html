@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styles</title>
+    <style>
+        /* .clip-change {
+            clip-path: circle(50.0% at 50% 50%);
+
+        } */
+
+        /* div {
+            height: 50px;
+            width: 100px;
+            border: 5px solid black;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .content-box {
+            box-sizing: content-box;
+        }
+
+        .border-box {
+            box-sizing: border-box;
+            overflow: hidden;
+        } */
+
+        div {
+            height: 150px;
+            width: 300px;
+            border: 10px solid black;
+            background-color: aquamarine;
+            margin: 20px;
+            box-sizing: border-box;
+            position: absolute;
+        }
+
+        .box1 {
+            background-color: aqua;
+            top: 100px;
+            left: 100px;
+            z-index: 1;
+        }
+
+        .box2 {
+            background-color: green;
+            top: 150px;
+            z-index: 2;
+            left: 150px;
+        }
+
+        .box3 {
+            background-color: blue;
+            z-index: 3;
+            top: 200px;
+            left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <img src="/img/665373.jpg" class="clip-change" height="25%" width="25%" alt=""> -->
+
+    <!-- box sizing -->
+    <!-- <div class="content-box">
+        Content box
+    </div>
+
+    <div class="border-box">
+        Border box
+    </div> -->
+
+    <!-- z - index == means which item is displayed first -->
+
+    <div class="box1">Box 1</div>
+    <div class="box2"> Box 2</div>
+    <div class="box3"> Box 3</div>
+
+</body>
+</html>

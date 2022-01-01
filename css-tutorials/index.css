@@ -1,0 +1,71 @@
+/*----------------- class selector */
+
+/* p,
+a {
+    color: green;
+}
+
+li {
+    list-style-type: square;
+}
+
+.special {
+    color: orange;
+    font-weight: bold;
+}
+
+span.special,
+li.special {
+    color: blue;
+    font-weight: bold;
+} */
+
+/* li em {
+    color: brown;
+} */
+
+/* select p tag which is just after h1 tag */
+/* h1+span+p {
+    font-size: 200%;
+} */
+
+/* pseudo class */
+/* a:hover {
+    font-size: 200%;
+    text-decoration: none;
+} */
+
+/* body h1+span+p .special {
+    font-size: 200%;
+} */
+
+/* ----------------id selectors  */
+
+/* #heading {
+    color: red;
+    background-color: black;
+} */
+
+/* p#one {
+    font-size: 200%;
+} */
+
+/* -----------attribute selector  */
+
+/* li[class] {
+    font-size: 200px;
+} */
+
+/* li[class="special1"] {
+    font-size: 200px;
+} */
+
+/* [class~=a] {
+    font-size: 200%;
+} */
+
+/* --------- everything selector */
+
+* {
+    list-style-type: none;
+}

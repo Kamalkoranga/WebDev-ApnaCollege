@@ -1,0 +1,88 @@
+/* color properties */
+
+/* color:red;
+background-color:red;
+border-color:red; */
+
+/* color values  */
+
+/* names, rgb, rgba, hexadecimal(#) */
+
+/* h1 { */
+    /* color: red; */
+    /* color: #0c626885; */
+    /* background-color: aqua; */
+/* }
+
+p {
+    color: rgb(0, 0, 0);
+} */
+
+/* background-image:url(); */
+/* background-repeat */
+/* background-position */
+/* background-size */
+/* background-attachment */
+
+/* .background {
+    height: 900px;
+    width: 100%;
+    background-image: url(/img/665373.jpg);
+    background-repeat: no-repeat; */
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: 500px; */
+    /* background-attachment: fixed; */
+    /* background-attachment: scroll; */
+    /* background-position: center; */
+    /* background-position: top; */
+    /* background-position: bottom; */
+/* } */
+
+/* Fonts in css */
+
+/* font-family */
+/* font-style */
+/* font-size */
+/* font-weight */
+
+/* h1 { */
+    /* font-size: 50px; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-style: italic; */
+    /* font-weight: 900; */
+/* } */
+
+/* formatting text */
+
+/* color */
+/* text-align */
+/* text-decoration */
+/* text-transform */
+/* text-identation */
+/* letter spacing */
+/* word-spacing */
+
+/* p {
+    color: red;
+    line-height: 4;
+    font-weight: 800;
+    text-indent: 100px;
+    word-spacing: 4px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 4px 3px 2px black;
+    text-align: center;
+} */
+
+/* SHORTHAND PROPERTY */
+
+/* background: color image repeat position; */
+/* font: style weight size height family; */
+/* border: width, style, color; */
+/* margin: top, right, bottom, left; */
+/* padding: top, right, bottom, left; */
